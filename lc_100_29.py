@@ -22,7 +22,7 @@ class Solution:
             else:
 
                 if item == ')':
-                    
+
                     if x[-1] == '(':
                         del x[-1]
                     else:
@@ -38,7 +38,6 @@ class Solution:
                         del x[-1]
                     else:
                         return False
-                
 
         if x == []:
             return True
